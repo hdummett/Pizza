@@ -7,26 +7,27 @@
         vertical-align: baseline;
         background: transparent;
     }
-div{
-      min-height:37vh;
+.team-member{
+      height: 32vh;
 }
 .menu-heading{
-      text-align: center;
-      max-height: 2vh;
+  text-align: center;
+  height: 20vh;
+  font-size: 1.5em;
 }
 .divTable{
-  display:  table;
-  width:auto;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
 }
 .divRow{
-  display:table-row;
-  width:auto;
+  display: table-row;
+  width: auto;
 }
 .divCell{
-  float:left;
-  display:table-column;
-  width:26vw;
-  padding: 1vh 1vw;
+  float: left;
+  display: table-cell;
+  width: 26vw;
 }
 body {
       color: rgb(0,0,0);
