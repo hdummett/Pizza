@@ -5,8 +5,14 @@
         outline: 0;
         font-size: 100%;
         vertical-align: baseline;
-        background: transparent;
-    }
+        background: rgb(252,246,209);
+}
+h1{
+      text-align: center;
+      font-size: 5em;
+      font-family: tahoma;
+      padding-bottom: 7vh;
+}
 .team-member{
       height: 32vh;
 }
@@ -33,12 +39,6 @@ body {
       color: rgb(0,0,0);
       font-family: courier, sans-serif;
       margin: 8vh 6vw;
-}
-h1{
-      text-align: center;
-      font-size: 5em;
-      font-family: tahoma;
-      padding-bottom: 7vh;
 }
 h2{
       font-size: 2.2em;
