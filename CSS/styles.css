@@ -5,6 +5,12 @@
         outline: 0;
         font-size: 100%;
         vertical-align: baseline;
+        background: transparent;
+}
+body{
+        background: rgb(153, 0, 51);
+}
+.container{
         background: rgb(252,246,209);
 }
 h1{
