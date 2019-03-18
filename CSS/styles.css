@@ -1,71 +1,31 @@
-* {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        background: transparent;
-}
 body{
-        background: rgb(153, 0, 51);
+        background: rgb(255,250,250);
+        font-family: courier, sans-serif;
+        color: black;
+        font-size: 3vh;
 }
-.container{
-        background: rgb(252,246,209);
-}
-h1{
-      text-align: center;
-      font-size: 5em;
-      font-family: tahoma;
-      padding-bottom: 7vh;
-}
-.team-member{
-      height: 32vh;
-}
-.menu-heading{
-  text-align: center;
-  height: 20vh;
-  font-size: 1.5em;
-}
-.divTable{
-  display: table;
-  table-layout: fixed;
-  width: 100%;
-}
-.divRow{
-  display: table-row;
-  width: auto;
-}
-.divCell{
-  float: left;
-  display: table-cell;
-  width: 26vw;
-}
-body {
-      color: rgb(0,0,0);
-      font-family: courier, sans-serif;
-      margin: 8vh 6vw;
+.page-title{
+        text-align: center;
+        font-family: tahoma;
+        font-size: 12vh;
+        margin-top: 3vh;
 }
 h2{
-      font-size: 2.2em;
-      padding-bottom: 7vh;
-      padding-left: 8vh;
+        font-size: 4vh;
 }
 h3{
-      color: rgb(153, 0, 51);
-      font-size: 2.5em;
-      font-family: tahoma;
+        color: rgb(153, 0, 51);
+        font-size: 6vh;
+        font-family: tahoma;
+}
+.menu-heading{
+        text-align: center;
 }
 h4{
       color: rgb(24,104,59);
-      font-size: 2em;
-}
-p {
-      font-size: 1.5em;
+      font-size: 4.5vh;
 }
 img{
-  float: left;
-  height: 170px;
-  border-radius: 50%;
-  padding-right: 8vh;
+  height: 30vh;
+  border-radius: 50%
 }
