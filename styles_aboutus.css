@@ -9,7 +9,7 @@ p {
 }
 
 .parallax {
-  background-image: url("https://image1.masterfile.com/getImage/NjEyMi0wNzcwNTY1MGVuLjAwMDAwMDAw=AJvXT2/6122-07705650en_Masterfile.jpg");
+  background-image: url("images\home-page-background");
   height: 100vh;
   background-attachment: fixed;
   background-position: center;
