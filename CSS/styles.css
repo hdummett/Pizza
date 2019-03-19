@@ -25,7 +25,28 @@ h4{
       color: rgb(24,104,59);
       font-size: 4.5vh;
 }
+.about-us-text{
+        text-align: center;
+}
 img{
   height: 25vh;
   border-radius: 50%
+}
+.img-about-us{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.parallax {
+  background-image: url("https://image1.masterfile.com/getImage/NjEyMi0wNzcwNTY1MGVuLjAwMDAwMDAw=AJvXT2/6122-07705650en_Masterfile.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+form {
+  align-items: center;
 }
