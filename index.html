@@ -63,16 +63,37 @@
 
     <main role="main" class="container">
 
-      <h1 class="page-title">About Us</h1>
-        <p class="about-us-text">Putting the 'Pizza' into Pizzeria <br /><br />
-          Let our maestro pizza inventor transport you to places you didn't know you wanted to be<br /><br />
-          Our independent/ unique</p>
+      <div id="about-us">
+        <h1 class="page-title">About Us</h1>
+          <h2>Putting the 'Pizza' into Pizzeria since 2002.</h2>
+          <p class="about-us-text"> Let our master pizza inventor transport you to places you didn't
+            know you wanted to be.  Our independent/ unique </p>
+      </div>
 
-    <h1 class="page-title">Contact us</h1>
-
-    <div class="row mb-2">
-      <div class="col-sm-6">
-        <img src="https://2d-code.co.uk/images/qr-map.jpg">
+      <div id="contact-us">
+        <h1 class="page-title">Contact us</h1>
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="https://2d-code.co.uk/images/qr-map.jpg">
+          </div>
+          <div class="col-sm-6">
+            <p>Send us an email with any queries or feedback and we will get back to you asap (As Soon As (the)Pizza(is done)):</p>
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Your name:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Joe Bloggs">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Your email:</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Your thoughts:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
 
       <div class="col-sm-6">
@@ -101,9 +122,10 @@
         <input type= "submit" value= "submit" id="button">
         <button type="button">Submit attempt II?</button>
 
+            <input type= "submit" value= "submit">
           </form>
 
-      </div>
+        </div>
 
   </body>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
