@@ -6,8 +6,8 @@ body{
 }
 .page-title{
         text-align: center;
-        font-family: tahoma;
         font-size: 12vh;
+        font-family: tahoma;
         margin-top: 3vh;
 }
 h2{
@@ -26,6 +26,6 @@ h4{
       font-size: 4.5vh;
 }
 img{
-  height: 30vh;
+  height: 25vh;
   border-radius: 50%
 }
