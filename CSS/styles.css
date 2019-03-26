@@ -93,6 +93,7 @@ h4{
         font-size: 10vh;
 }
 
+<<<<<<< HEAD
 /* FORM */
 form {
   align-items: left;
@@ -124,6 +125,24 @@ font-family: Courier;
   background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
   background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
   text-decoration: none;
+=======
+.Submit {
+  border-radius: 0.25rem;
+  font-family: courier;
+}
+
+.starter-template {
+  font-family: courier;
+}
+
+.introduction {
+  margin-top: 30px
+  margin-bottom: 30px
+}
+
+.h1 {
+  border: 3px black double;
+>>>>>>> e50fae13c177856232a92626ba4a595a953e4175
 }
 
 /* .parallax {
