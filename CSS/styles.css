@@ -66,18 +66,22 @@ h3{
         color: rgb(255,250,250);
         font-size: 10vh;
 }
-#contact-us{
+.bg-red{
         background-color: rgb(153, 0, 51);
+        color: rgb(255,250,250);
+}
+.fg-white{
         color: rgb(255,250,250);
 }
 .address{
         text-align: right;
 }
-.message{
-        font-size: 3vh;
+.border-white{
         border-left: 1px solid rgb(255,250,250);
 }
-
+.competition-entry{
+        border-left: 1px solid rgb(0,0,0);
+}
 .menu-heading{
         text-align: center;
 }
