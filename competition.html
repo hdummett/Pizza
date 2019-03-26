@@ -9,9 +9,16 @@
     <title>Competition Time</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+    </style>
   </head>
 
-  <body>
+  <body id="compbody">
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark static-top">
       <a class="navbar-brand" href="#">PIZZA</a>
@@ -40,11 +47,114 @@
       </div>
     </nav>
 
+  <div id="competition">
 
     <main role="main" class="container">
 
-      <div class="starter-template">
+    <div id="introduction" background="images\design.jpg">
+      <div>
 
-      </div>
+        <h1 id="wanted"><b>WANTED</b></h1>
+        <p id="description">Always thought you were destined for better things?<br></br>
+         Sumbit a pizza design below and our favourite will be added to the menu.<br></br>
+         Points for: Bizzareness and mind-blowing flavour combinations.
+        </p>
+
+
+        </div>
+     </div>
+
+      <div class="row">
+        <div class="col-sm-6">
+
+      <button class="b1" onclick="colorArr1()">Color Array 1</button>
+      <button class="b2" onclick="colorArr2()">Color Array 2</button>
+
+      <script>
+      var requestAnimFrame = (function () {
+      return window.requestAnimationFrame ||
+          window.webkitRequestAnimationFrame ||
+          window.mozRequestAnimationFrame ||
+          window.oRequestAnimationFrame ||
+          window.msRequestAnimationFrame ||
+          function (callback) {
+              window.setTimeout(callback, 1000 / 60, new Date().getTime());
+          };
+    })();
+    var canvas, ctx, toggle;
+    init();
+    animate();
+    function init() {
+      canvas = document.createElement('canvas');
+      canvas.width = 512;
+      canvas.height = 512;
+      ctx = canvas.getContext('2d');
+      document.body.appendChild(canvas);
+    }
+    function Circle(color, width, radius, start, end) {
+      ctx.beginPath();
+      ctx.arc(256, 256, radius, start, end);
+      ctx.strokeStyle = color;
+      ctx.lineWidth = width;
+      ctx.stroke();
+      ctx.fill();
+    }
+    function animate() {
+      requestAnimFrame(animate);
+      draw();
+    }
+    var colors1, colors2;
+    function colorArr1() {
+      colors1 = new Array;
+      for (var i = 0; i < 6; i++) {
+          colors1.push(rngColor());
+      }
+    }
+    function colorArr2() {
+      colors2 = new Array;
+      for (var i = 0; i < 6; i++) {
+          colors2.push(rngColor());
+      }
+    }
+    colorArr1();
+    colorArr2();
+    function draw() {
+      ctx.clearRect(0, 0, 512, 512);
+      ctx.translate(256, 256);
+      ctx.rotate(2 * Math.PI / 180);
+      ctx.translate(-256, -256);
+      var i = 1;
+      for (var color in colors1) {
+          Circle(colors1[color], 25, 30 * i, 0, 0.5 * Math.PI);
+          Circle(colors1[color], 25, 30 * i, 1 * Math.PI, 1.5 * Math.PI);
+          i++;
+      }
+      i = 1;
+      for (var color in colors2) {
+          Circle(colors2[color], 25, 30 * i, 0.5 * Math.PI, 1 * Math.PI);
+          Circle(colors2[color], 25, 30 * i, 1.5 * Math.PI, 2 * Math.PI);
+          i++;
+      }
+    }
+    function rngColor() {
+
+      var r = Math.round(Math.random() * 255);
+      var b = Math.round(Math.random() * 255);
+      var g = Math.round(Math.random() * 255);
+      return ("rgb(" + r + "," + g + "," + b + ")");
+    }
+      </script>
+    </div>
+
+    <div class="col-sm-6">
+
+      <p>Find your inner Picasso of Pizza; Describe your ideas in the box below:</p>
+
+      <textarea id="myTextArea" rows="3" cols="40" placeholder="Set your imagination free!">
+      </textarea>
+      <button onclick="send">Submit</button>
+    </div>
+    </div>
+
   </body>
 </html>
