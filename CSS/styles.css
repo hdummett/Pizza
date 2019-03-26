@@ -5,14 +5,35 @@ body{
         font-size: 3vh;
 }
 
-/* STRUCTURE */
+/* GENERIC */
+.bg-red{
+        background-color: rgb(153, 0, 51);
+        color: rgb(255,250,250);
+}
+.fg-white{
+        color: rgb(255,250,250);
+}
+.center-text{
+        text-align: center;
+}
+.justify-text{
+        text-align: justify;
+}
+.align-right{
+        text-align: right;
+}
+.border-right-white{
+        border-left: 1px solid rgb(255,250,250);
+}
+.border-left-black{
+        border-left: 1px solid rgb(0,0,0);
+}
+
+/* DIVS */
 .container-fluid{
         padding: 0px;
 }
-.sm-6-image{
-        width: 38vw;
-        align: middle;
-}
+
 .footer {
         color: rgb(255,250,250);
         height: 9vh;
@@ -22,12 +43,18 @@ body{
         padding-top: 2vh;
 }
 
-/* TEXT */
-.center-text{
-        text-align: center;
+/* TEXT STYLES*/
+h2{
+        font-size: 4vh;
 }
-.justify-text{
-        text-align: justify;
+h3{
+        color: rgb(153, 0, 51);
+        font-size: 8vh;
+        font-family: tahoma;
+}
+h4{
+      color: rgb(24,104,59);
+      font-size: 5vh;
 }
 .page-title{
         font-size: 12vh;
@@ -40,18 +67,17 @@ body{
         font-family: tahoma;
 }
 
-h2{
-        font-size: 4vh;
+/* IMAGE STYLES */
+.sm-6-image{
+        width: 38vw;
+        align: middle;
 }
-h3{
-        color: rgb(153, 0, 51);
-        font-size: 8vh;
-        font-family: tahoma;
+.img-team{
+  height: 28vh;
+  /* border-radius: 50%; */
 }
 
-
-/* HOME PAGE */
-
+/* CAROUSEL */
 .carousel-content {
         position: absolute;
         top: 17%;
@@ -66,58 +92,11 @@ h3{
         color: rgb(255,250,250);
         font-size: 10vh;
 }
-.bg-red{
-        background-color: rgb(153, 0, 51);
-        color: rgb(255,250,250);
-}
-.fg-white{
-        color: rgb(255,250,250);
-}
-.address{
-        text-align: right;
-}
-.border-white{
-        border-left: 1px solid rgb(255,250,250);
-}
-.competition-entry{
-        border-left: 1px solid rgb(0,0,0);
-}
-.menu-heading{
-        text-align: center;
-}
-h4{
-      color: rgb(24,104,59);
-      font-size: 5vh;
-}
-.tiles{
-      max-height: 70vh;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-}
-.img-team{
-  height: 28vh;
-  /* border-radius: 50%; */
-}
-.img-about-us{
-  /* border-radius: 50%; */
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-.parallax {
-  background-image: url("https://image1.masterfile.com/getImage/NjEyMi0wNzcwNTY1MGVuLjAwMDAwMDAw=AJvXT2/6122-07705650en_Masterfile.jpg");
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
+/* FORM */
 form {
   align-items: left;
 }
-
 .button {
   background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
  background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
@@ -137,7 +116,6 @@ font-family: Courier;
   padding: 19px;
   text-decoration: none;
 }
-
 .btn:hover {
   background: #2079b0;
   background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
@@ -147,3 +125,12 @@ font-family: Courier;
   background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
   text-decoration: none;
 }
+
+/* .parallax {
+  background-image: url("https://image1.masterfile.com/getImage/NjEyMi0wNzcwNTY1MGVuLjAwMDAwMDAw=AJvXT2/6122-07705650en_Masterfile.jpg");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
