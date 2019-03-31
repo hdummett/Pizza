@@ -16,7 +16,7 @@
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link mr-2" href="index.html">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
@@ -25,7 +25,7 @@
           <li class="nav-item">
             <a class="nav-link mr-2" href="menu.html">Menu</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link mr-2" href="competition.html">Competition</a>
           </li>
         </ul>
@@ -61,11 +61,27 @@
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
                 </form>
-                <input type= "submit" value= "submit" class="button">
-            </div>
-        </div>
-      </div>
-      </div>
+                <button id="myBtn">Submit</button>
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <span class="close">&times;</span>
+                      <h2>Email sent!</h2>
+                    </div>
+                    <div class="modal-body">
+                      <p>Thank you, we are processing your message.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <h3>Enjoy your day, why not stop by for a bite to eat? ;)</h3>
+                    </div>
+                 </div>
+              </div>
+           </div>
+       </div>
+     </div>
+   </div>
 
       <div class="bg-red pt-4 pb-4">
         <h2 class="section-title">Previous winners</h2>
@@ -90,6 +106,8 @@
       <div class="footer center-text bg-dark pt-2 pb-2">
         <p class="footer-content">Molltia Pizzeria est. 2002</p>
       </div>
+
+      <script src="script.js"></script>
 
   </body>
 </html>
