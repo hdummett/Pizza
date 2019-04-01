@@ -201,3 +201,7 @@ font-family: Courier;
   from {top: -300px; opacity: 0}
   to {top: 0; opacity: 1}
 }
+
+.cursorchange {
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=116212);
+}
