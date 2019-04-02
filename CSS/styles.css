@@ -56,11 +56,12 @@ h3{
         font-size: 8vh;
         font-family: tahoma;
 }
-
-.white{
-        color: rbg(0, 0, 0);
+.anchor{
+        color: rgb(24,104,59);
 }
-
+.anchor:hover{
+        color: rgb(153, 0, 51);
+}
 h4{
       color: rgb(24,104,59);
       font-size: 5vh;
