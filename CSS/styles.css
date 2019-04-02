@@ -1,86 +1,86 @@
 body{
-        background-color: rgb(255,250,250);
-        font-family: courier, sans-serif;
-        color: black;
-        font-size: 3vh;
+  background-color: rgb(255,250,250);
+  font-family: courier, sans-serif;
+  color: black;
+  font-size: 3vh;
 }
 
 /* GENERIC */
 .bg-red{
-        background-color: rgb(153, 0, 51);
-        color: rgb(255,250,250);
+  background-color: rgb(153, 0, 51);
+  color: rgb(255,250,250);
 }
 .fg-white{
-        color: rgb(255,250,250);
+  color: rgb(255,250,250);
 }
 .center-text{
-        text-align: center;
+  text-align: center;
 }
 .justify-text{
-        text-align: justify;
+  text-align: justify;
 }
 .align-right{
-        text-align: right;
+  text-align: right;
 }
 .border-left-white{
-        border-left: 1px solid rgb(255,250,250);
+  border-left: 1px solid rgb(255,250,250);
 }
 .border-left-black{
-        border-left: 1px solid rgb(0,0,0);
+  border-left: 1px solid rgb(0,0,0);
 }
 
 /* DIVS */
 .container-fluid{
-        padding: 0px;
+  padding: 0px;
 }
 
 .footer {
-        color: rgb(255,250,250);
-        height: 9vh;
-        overflow: hidden;
+  color: rgb(255,250,250);
+  height: 9vh;
+  overflow: hidden;
 }
 .footer-content{
-        padding-top: 2vh;
+  padding-top: 2vh;
 }
 
 .centerpllss{
-       margin-top: auto;
+  margin-top: auto;
 }
 
 /* TEXT STYLES*/
 h2{
-        font-size: 4vh;
+  font-size: 4vh;
 }
 h3{
-        color: rgb(153, 0, 51);
-        font-size: 8vh;
-        font-family: tahoma;
+  color: rgb(153, 0, 51);
+  font-size: 8vh;
+  font-family: tahoma;
 }
 .anchor{
-        color: rgb(24,104,59);
+  color: rgb(24,104,59);
 }
 .anchor:hover{
-        color: rgb(153, 0, 51);
+  color: rgb(153, 0, 51);
 }
 h4{
-      color: rgb(24,104,59);
-      font-size: 5vh;
+  color: rgb(24,104,59);
+  font-size: 5vh;
 }
 .page-title{
-        font-size: 12vh;
-        font-family: tahoma;
-        text-align: center;
+  font-size: 12vh;
+  font-family: tahoma;
+  text-align: center;
 }
 .section-title{
-        text-align: center;
-        font-size: 9vh;
-        font-family: tahoma;
+  text-align: center;
+  font-size: 9vh;
+  font-family: tahoma;
 }
 
 /* IMAGE STYLES */
 .sm-6-image{
-        width: 38vw;
-        align: middle;
+  width: 38vw;
+  align: middle;
 }
 .img-team{
   height: 28vh;
@@ -89,18 +89,18 @@ h4{
 
 /* CAROUSEL */
 .carousel-content {
-        position: absolute;
-        top: 17%;
-        left: 7%;
-        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  position: absolute;
+  top: 17%;
+  left: 7%;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
 .carousel-item{
-        filter: grayscale(100%);
-        height: 100vh;
+  filter: grayscale(100%);
+  height: 100vh;
 }
 .carousel-title{
-        color: rgb(255,250,250);
-        font-size: 10vh;
+  color: rgb(255,250,250);
+  font-size: 10vh;
 }
 
 /* FORM */
@@ -110,12 +110,12 @@ form {
 
 
 /* .parallax {
-  background-image: url("https://image1.masterfile.com/getImage/NjEyMi0wNzcwNTY1MGVuLjAwMDAwMDAw=AJvXT2/6122-07705650en_Masterfile.jpg");
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+background-image: url("https://image1.masterfile.com/getImage/NjEyMi0wNzcwNTY1MGVuLjAwMDAwMDAw=AJvXT2/6122-07705650en_Masterfile.jpg");
+height: 100vh;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 } */
 
 .modal {
