@@ -185,40 +185,6 @@ form {
   to {top: 0; opacity: 1}
 }
 
-.model-3d-1{
-  a {
-    background: #fff;
-    color:#666;
-    float: left;
-    margin:0 10px;
-    @include border-radius(100%);
-    &:hover {
-      color: #fff;
-      @include rotateY(-180deg);
-      .fornt{ @include backface-visibility (hidden);}
-      .back{ @include backface-visibility (visible);}
-    }
-  }
-  .front , .back{
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    @include border-radius(100%);
-    @include backface-visibility (visible);
-  }
-  .back {
-    @include rotateY(-180deg);
-    @include backface-visibility (hidden);
-  }
-  .twitter .back { background: $twt-cl }
-  .facebook  .back { background: $fb-cl }
-  .google-plus .back { background: $gp-cl}
-  .linkedin .back { background: $in-cl}
-  .pinterest .back { background: $pin-cl}
-}
-
 .successText{
   color: white;
   font-size: 1.2rem;
